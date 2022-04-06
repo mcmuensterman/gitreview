@@ -8,9 +8,7 @@ namespace IntroductionToAPI.ConsoleApp.Models
 {
     public class Person
     {
-        // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
-    public class Root
-    {
+
         [JsonProperty("name")]
         public string Name { get; set; }
 
@@ -61,5 +59,4 @@ namespace IntroductionToAPI.ConsoleApp.Models
     }
 
 
-    }
 }
